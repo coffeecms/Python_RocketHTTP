@@ -45,7 +45,7 @@ To understand the differences between **RocketHTTP**, **FastAPI**, **Asyncio**, 
 1. **RocketHTTP**
    - **Type**: HTTP client library written in Go, designed for high-performance HTTP request handling.
    - **Use Case**: Ideal for applications needing to make a large number of concurrent HTTP requests efficiently.
-   - **Concurrency**: Utilizes Go routines for handling concurrency, optimized for up to 100,000 concurrent requests.
+   - **Concurrency**: Utilizes Go routines for handling concurrency, optimized for up to 1000,000 concurrent requests.
    - **HTTP Support**: Supports all major HTTP methods with in-memory caching and HTTP/2.
    - **Python Integration**: Exposes a shared object (`.so`) file that Python can utilize via CFFI.
    - **Performance**: Optimized for handling a high volume of requests with low latency.
